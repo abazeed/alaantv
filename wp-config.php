@@ -20,13 +20,13 @@
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpresstwo' );
+define( 'DB_NAME', 'alaantv_sites' );
 
 /** MySQL database username */
-define( 'DB_USER', 'wp' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'wp' );
+define( 'DB_PASSWORD', 'root' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -62,7 +62,7 @@ define( 'WP_CACHE_KEY_SALT', 'wlhF&B4]O)Fvc{A5}ui_(XM:$L~:2S T7Wl3cH&Dr(a)XTbOQu
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'tv_';
 
 
 define( 'WP_DEBUG', true );
