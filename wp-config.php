@@ -68,6 +68,8 @@ $table_prefix = 'tv_';
 define( 'WP_DEBUG', true );
 define( 'SCRIPT_DEBUG', true );
 
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
 
 /* That's all, stop editing! Happy blogging. */
 
